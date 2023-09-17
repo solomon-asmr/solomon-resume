@@ -1,0 +1,93 @@
+.first{
+    background-image: url(../imgs/background.jpg);
+    text-align: center;
+    height: 600px;
+}
+.next{
+    padding-top: 50px;
+    color: aliceblue;
+}
+.next > h1{
+    font-size: 70px;
+    font-weight:bold;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Tangerine', cursive;
+}
+h2{
+    font-size: 40px;
+}
+.about{
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.about > img{
+    border-radius: 50%;
+    
+}
+.about > h1{
+    color: blue;
+    font-size: 50px;
+    font-weight:bold;
+}
+.about > p{
+    font-size: 25px;
+    
+}
+.container{
+    display: grid;
+    justify-content: center;
+}
+.container > h1{
+    text-align: center;
+}
+.full-stack > img{
+    float: left;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+.trader > img{
+    float: left;
+    height: 250px;
+    width: 245px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+.Barber > img{
+    float: left;
+    height: 200px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+}
+.contact{
+    display: grid;
+    justify-content: center;
+}
+.btn{
+    background-color: rgb(6, 113, 128);
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+section{
+    margin-bottom:100px;
+
+}
+footer{
+    background-color: rgb(238, 212, 63);
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+}.items{
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
